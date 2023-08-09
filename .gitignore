@@ -1,0 +1,5 @@
+test/
+train/
+/sample_submission.csv
+/training_labels.csv
+__pycache__/
