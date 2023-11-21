@@ -9,11 +9,11 @@ from EfficientNetModel import EfficientNetModel
 from DataLoaderClass import DataLoaderClass
 
 x_paths = []
-csv_file_path = 'C:/Users/mathe/Documents/Projetos/Astronomia/gravitational-wave-detection/training_labels.csv'
+csv_file_path = './data/training_labels.csv'
 df = pd.read_csv(csv_file_path)
 
 y_labels = df['id'].values
-data_root = 'C:/Users/mathe/Documents/Projetos/Astronomia/gravitational-wave-detection'
+data_root = './data'
 
 for level1 in range(16):
 
